@@ -1,42 +1,6 @@
 # @halo-lab/vue-form
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-yarn
-or
-npm
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-yarn dev
-or
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-yarn build
-or
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-yarn lint
-or
-npm run lint
-```
+The package supports simple form services such as `Formspree.io`, `Formsubmit.co`, `W3Form`. All you need is either provide URL address for the form submission, or submit callback function to the `Form` component. If chosen form service accepts the hidden input with any information, e.g. api key, you can add it as `Input` component with the name you need and the parameter `defaultValue`.
 
 ### To install the package
 
